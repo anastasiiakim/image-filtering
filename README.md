@@ -12,4 +12,4 @@ After that, we apply Fourier transform and apply L-layer neural networks to thes
 Here we have several jupyter notebooks:
 * *sierpinski.ipynb* notebook shows how to draw periodic Sierpinski space-filling curve with different orders.
 * *fourier.ipynb* notebook shows how to apply Fourier transform on the image.
-* *classification_cats_vs_noncats.ipynb* notebook contains full explanation how we use the 'cats vs non-cats' dataset to train a binary classifier after applying Fourier transform of the one-dimensional signal obtained by passing an input picture along the periodic Sierpinski space filling curve. 
+* *classification_cats_vs_noncats.ipynb* notebook contains full explanation how we use the 'cats vs non-cats' dataset to train a binary classifier after applying Fourier transform of the one-dimensional signal obtained by passing an input picture along the periodic Sierpinski space-filling curve. 
