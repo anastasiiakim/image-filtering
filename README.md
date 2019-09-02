@@ -3,7 +3,10 @@ The goal of this project is to study the optimization methods for computer visio
 
 Here, we analyze the 'cats vs non-cats' dataset, which is a set of 209 RGB train images and 50 test images labeled as cat or non-cat. We train a binary classifier to identify whether there is a cat on the image or not. 
 
-Each image is of shape (64, 64, 3), where 3 is for the 3 channels (RGB). There are 12288 features. We first read pixels in each of the RGB matrices by using periodic Sierpinski curve. After that, we apply Fourier transform and apply L-layer neural networks to these modified values. Our goal is significantly reduce training time but retain similar classification accuracy.      
+Each image is of shape (64, 64, 3), where 3 is for the 3 channels (RGB). There are 12288 features. We first read pixels in each of the RGB matrices by using periodic Sierpinski curve. 
+
+![test](https://github.com/anastasiiakim/image-filtering/blob/master/images/readwithcurve.png)
+After that, we apply Fourier transform and apply L-layer neural networks to these modified values. Our goal is significantly reduce training time but retain similar classification accuracy.      
 
 Here we have several jupyter notebooks:
 * *sierpinski.ipynb* notebook shows how to draw periodic Sierpinski space-filling curve with different orders.
