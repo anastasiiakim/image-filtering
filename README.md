@@ -7,6 +7,12 @@ Each image is of shape (64, 64, 3), where 3 is for the 3 channels (RGB). There a
 
 ![test](https://github.com/anastasiiakim/image-filtering/blob/master/images/readwithcurve.png)
 
+2nd-order Hilbert curve | 2nd-order modified Sierpiński curve
+:-------------------------:|:-------------------------:
+<img src="https://github.com/anastasiiakim/image-filtering/blob/master/images/hilbertRGB.png" style="width:400px;height:300px"/>  |  <img src="https://github.com/anastasiiakim/image-filtering/blob/master/images/readwithcurve.png" style="width:400px;height:300px"/>
+
+
+
 After that, we apply Fourier transform and apply L-layer neural networks to these modified values. Our goal is significantly reduce training time but retain similar classification accuracy.      
 
 Here we have several jupyter notebooks:
