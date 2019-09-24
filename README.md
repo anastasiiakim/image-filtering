@@ -8,7 +8,7 @@ Each image is of shape (64, 64, 3), where 3 is for the 3 channels (RGB). There a
 
 2nd-order Hilbert curve | 2nd-order modified Sierpiński curve
 :----------------------:|:-------------------------:
-<img src="https://github.com/anastasiiakim/image-filtering/blob/master/images/hilbertRGB.png" style="width:400px;height:300px"  width="300"/>  |  <img src="https://github.com/anastasiiakim/image-filtering/blob/master/images/readwithcurve.png" style="width:400px;height:300px" width="350"/>
+<img src="https://github.com/anastasiiakim/image-filtering/blob/master/images/hilbertRGB.png" style="width:400px;height:300px"  width="350"/>  |  <img src="https://github.com/anastasiiakim/image-filtering/blob/master/images/readwithcurve.png" style="width:400px;height:300px" width="370"/>
 
 
 
