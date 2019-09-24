@@ -18,7 +18,7 @@ Here we have several jupyter notebooks:
 * *sierpinski.ipynb* notebook shows how to draw periodic Sierpinski space-filling curve with different orders.
 * *hilbert.ipynb* notebook shows how to draw Hilbert space-filling curve with different orders.
 * *cifar10_conv1d.ipynb* notebook contains full explanation how we use the Cifar-10 dataset to train 1D CNNs after mapping 2D data to one-dimensional signal obtained by passing an input picture with space-filling curves. 
-* *fourier.ipynb* notebook shows how to apply Fourier transform to reduce noise of the image. This notebook for future use.
+* *fourier.ipynb* notebook shows how to apply Fourier transform to reduce noise of the image. I keep this notebook for future use.
 
 
 
