@@ -1,7 +1,7 @@
 # image-filtering
 The goal of this project is to study the optimization methods for computer vision classification algorithms. We introduce the additional step in both training and classification, which is reading an input picture along a certain space-filling curve. Most of the space-filling curves are not periodic, we created the periodic Sierpinski curve, which can be obtained from the original Sierpinski curve with slight modification. We also considered Hilbert curve, the most common space-filling curve.
 
-Here, we analyze the 'Cifar-10' dataset, which is a set of 50000 RGB train images and 10000 test images. This dataset has 10 classes. We train a classifier to identify the correct object. 
+Here, we analyze the 'Cifar-10' dataset, which is a set of 50000 RGB train images and 10000 test images. This dataset has 10 classes. We train 1D CNNs to identify the correct object. 
 
 Each image is of shape (32, 32, 3), where 3 is for the 3 channels (RGB). There are 3072 features. We first read pixels in each of the RGB matrices by using either periodic Sierpinski curve or Hilbert curve. 
 
