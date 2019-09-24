@@ -11,7 +11,7 @@ Each image is of shape (32, 32, 3), where 3 is for the 3 channels (RGB). There a
 <img src="https://github.com/anastasiiakim/image-filtering/blob/master/images/hilbertRGB.png" style="width:400px;height:300px"  width="360"/>  |  <img src="https://github.com/anastasiiakim/image-filtering/blob/master/images/readwithcurve.png" style="width:400px;height:300px" width="370"/>
 
 
-After that, we apply one-dimensional convolutional neural networks. Our goal is reduce training time but retain similar classification accuracy.      
+After that, we apply one-dimensional convolutional neural networks. Our goal is to reduce training time but retain similar classification accuracy.      
 
 
 Here we have several jupyter notebooks:
