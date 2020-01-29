@@ -1,5 +1,5 @@
 # image-filtering
-The goal of this project is to study the optimization methods for computer vision classification algorithms. We introduce the additional step in both training and classification, which is reading an input picture along a certain space-filling curve. Most of the space-filling curves are not periodic, we created the periodic Sierpinski curve, which can be obtained from the original Sierpinski curve with slight modification. We also considered Hilbert curve, the most common space-filling curve.
+The goal of this project is to study the optimization methods for computer vision classification algorithms. We introduce the additional step in both training and classification, which is reading an input picture along a certain space-filling curve. Most of the space-filling curves are not periodic, we created the periodic Sierpinski curve, which can be obtained from the original Sierpinski curve with slight modification. We also considered Hilbert curve, the most common space-filling curve. Because space-filling curves preserve a maximum of spatial locality information between elements, we believe that using space-filling curve mapping as a preprocessing tool, preserves enough information of neighbouring pixels to be used by 1D CNNs. We evaluated the classification performance of 1D CNNs on Cifar-10 image dataset.
 
 Here, we analyze the 'Cifar-10' dataset, which is a set of 50000 RGB train images and 10000 test images. This dataset has 10 classes. We train 1D CNNs to identify the correct object. 
 
@@ -11,8 +11,7 @@ Each image is of shape (32, 32, 3), where 3 is for the 3 channels (RGB). There a
 <img src="https://github.com/anastasiiakim/image-filtering/blob/master/images/hilbertRGB.png" style="width:400px;height:300px"  width="360"/>  |  <img src="https://github.com/anastasiiakim/image-filtering/blob/master/images/readwithcurve.png" style="width:400px;height:300px" width="370"/>
 
 
-After that, we apply one-dimensional convolutional neural networks. Our goal is to reduce training time but retain similar classification accuracy.      
-
+After that, we apply one-dimensional convolutional neural networks. Our goal is to reduce training time but retain similar classification accuracy.
 
 Here we have several jupyter notebooks:
 * *sierpinski.ipynb* notebook shows how to draw periodic Sierpinski space-filling curve with different orders.
